@@ -15,9 +15,9 @@ React Native + TypeScript · Spring Boot · PostgreSQL · AWS (Elastic Beanstalk
 
 ## 🥾 The Trail (other projects)
 
-- **[OtakuOracle](https://github.com/Kamukii/OtakuOracle)** — anime recommendation app
-- **[Go Minesweeper](https://github.com/Kamukii/go-minesweeper)** — terminal Minesweeper written in Go
-- **[Personal site](https://your-site.vercel.app)** — pixel-art PNW hiking scene, deployed on Vercel
+- **[OtakuOracle](https://github.com/Guuzzeji/CSCI-367-Group-Project)** — anime recommendation app
+- **[Go Minesweeper](https://github.com/Guuzzeji/go-minesweeper-multiplayer)** — terminal Minesweeper written in Go
+- **[Personal site](https://kamukii-personal-website-git-main-kamukiis-projects.vercel.app/)** — hiking themed website, deployed on Vercel
 
 ## 🎒 Pack Contents (tech I carry)
 
@@ -29,6 +29,6 @@ Hiking the PNW, lifting at the gym, and grinding video games — currently schem
 
 ---
 
-📫 **Reach me:** [LinkedIn](https://linkedin.com/in/YOUR-HANDLE) · your.email@example.com
+📫 **Reach me:** [LinkedIn](www.linkedin.com/in/bryant-truong-430195307) · Bryanttruong15@gmail.com
 
 ![Hiker climbing toward the summit](./hiker.svg)
