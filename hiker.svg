@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="800" height="220">
+  <!-- sky stays transparent so it works in dark + light mode -->
+
+  <!-- sun -->
+  <circle cx="690" cy="48" r="22" fill="#E8743C" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.65;0.9" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- back mountains -->
+  <path d="M0,220 L120,90 L240,220 Z" fill="#5a6b5d" opacity="0.55"/>
+  <path d="M160,220 L330,60 L500,220 Z" fill="#5a6b5d" opacity="0.7"/>
+  <path d="M420,220 L620,40 L800,220 Z" fill="#5a6b5d" opacity="0.5"/>
+  <!-- snow caps -->
+  <path d="M330,60 L305,88 L318,84 L330,96 L342,84 L355,88 Z" fill="#e8e6df"/>
+  <path d="M620,40 L595,70 L608,65 L620,78 L632,65 L645,70 Z" fill="#e8e6df"/>
+
+  <!-- main slope the hiker climbs (bottom-left up to the right) -->
+  <path d="M0,220 L0,190 C200,175 420,130 800,70 L800,220 Z" fill="#3f5247"/>
+  <!-- trail line -->
+  <path d="M0,192 C200,177 420,132 800,72" fill="none" stroke="#d9c9a3" stroke-width="3" stroke-dasharray="6 8" opacity="0.6"/>
+
+  <!-- trees -->
+  <g fill="#2e3f35">
+    <path d="M70,192 l12,-30 12,30 Z M76,192 l6,-16 6,16 Z" transform="translate(0,-8)"/>
+    <path d="M190,180 l11,-28 11,28 Z" />
+    <path d="M340,158 l10,-26 10,26 Z"/>
+    <path d="M520,128 l10,-24 10,24 Z"/>
+    <path d="M660,104 l9,-22 9,22 Z"/>
+  </g>
+
+  <!-- hiker -->
+  <g>
+    <animateMotion dur="14s" repeatCount="indefinite"
+      path="M40,176 C220,160 440,116 760,58"/>
+    <!-- tilt slightly uphill -->
+    <g transform="rotate(-8)">
+      <!-- bobbing -->
+      <g>
+        <animateTransform attributeName="transform" type="translate"
+          values="0,0; 0,-1.5; 0,0" dur="0.5s" repeatCount="indefinite"/>
+        <!-- back leg -->
+        <line x1="0" y1="-12" x2="-5" y2="0" stroke="#e8e6df" stroke-width="3" stroke-linecap="round">
+          <animate attributeName="x2" values="-5;4;-5" dur="0.5s" repeatCount="indefinite"/>
+        </line>
+        <!-- front leg -->
+        <line x1="0" y1="-12" x2="5" y2="0" stroke="#e8e6df" stroke-width="3" stroke-linecap="round">
+          <animate attributeName="x2" values="5;-4;5" dur="0.5s" repeatCount="indefinite"/>
+        </line>
+        <!-- body -->
+        <line x1="0" y1="-12" x2="0" y2="-26" stroke="#e8e6df" stroke-width="3.5" stroke-linecap="round"/>
+        <!-- backpack -->
+        <rect x="-9" y="-26" width="7" height="12" rx="2" fill="#E8743C"/>
+        <!-- arm + trekking pole -->
+        <line x1="0" y1="-22" x2="8" y2="-14" stroke="#e8e6df" stroke-width="3" stroke-linecap="round">
+          <animate attributeName="x2" values="8;5;8" dur="0.5s" repeatCount="indefinite"/>
+        </line>
+        <line x1="8" y1="-14" x2="10" y2="0" stroke="#b8a988" stroke-width="2" stroke-linecap="round">
+          <animate attributeName="x1" values="8;5;8" dur="0.5s" repeatCount="indefinite"/>
+          <animate attributeName="x2" values="10;7;10" dur="0.5s" repeatCount="indefinite"/>
+        </line>
+        <!-- head -->
+        <circle cx="0" cy="-31" r="4.5" fill="#e8e6df"/>
+        <!-- beanie -->
+        <path d="M-4.5,-32 a4.5,4.5 0 0 1 9,0 Z" fill="#E8743C"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- summit flag at the end of the trail -->
+  <g transform="translate(770,52)">
+    <line x1="0" y1="0" x2="0" y2="-18" stroke="#d9c9a3" stroke-width="2"/>
+    <path d="M0,-18 L12,-14 L0,-10 Z" fill="#E8743C">
+      <animateTransform attributeName="transform" type="skewY" values="0;3;0;-3;0" dur="2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

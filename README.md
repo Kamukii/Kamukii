@@ -31,4 +31,4 @@ Hiking the PNW, lifting at the gym, and grinding video games — currently schem
 
 📫 **Reach me:** [LinkedIn](https://linkedin.com/in/YOUR-HANDLE) · your.email@example.com
 
-![Bry's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kamukii&show_icons=true&theme=gruvbox&hide_border=true)
+![Hiker climbing toward the summit](./hiker.svg)
