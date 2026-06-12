@@ -15,9 +15,9 @@ React Native + TypeScript · Spring Boot · PostgreSQL · AWS (Elastic Beanstalk
 
 ## 🥾 The Trail (other projects)
 
-- **[OtakuOracle](https://github.com/Kamukii/OtakuOracle)** — anime recommendation app
-- **[Go Minesweeper](https://github.com/Kamukii/go-minesweeper)** — terminal Minesweeper written in Go
-- **[Personal site](https://your-site.vercel.app)** — pixel-art PNW hiking scene, deployed on Vercel
+- **[OtakuOracle](https://github.com/Guuzzeji/CSCI-367-Group-Project)** — anime recommendation app
+- **[Go Minesweeper](https://github.com/Guuzzeji/go-minesweeper-multiplayer)** — terminal Minesweeper written in Go
+- **[Personal site](https://kamukii-personal-website-git-main-kamukiis-projects.vercel.app/)** — hiking themed website, deployed on Vercel
 
 ## 🎒 Pack Contents (tech I carry)
 
