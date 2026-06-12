@@ -29,6 +29,6 @@ Hiking the PNW, lifting at the gym, and grinding video games — currently schem
 
 ---
 
-📫 **Reach me:** [LinkedIn](https://linkedin.com/in/YOUR-HANDLE) · your.email@example.com
+📫 **Reach me:** [LinkedIn](www.linkedin.com/in/bryant-truong-430195307) · Bryanttruong15@gmail.com
 
 ![Hiker climbing toward the summit](./hiker.svg)
