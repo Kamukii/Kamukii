@@ -25,7 +25,7 @@ React Native + TypeScript · Spring Boot · PostgreSQL · AWS (Elastic Beanstalk
 
 ## 🌲 Off the Trail
 
-Hiking the PNW, lifting at the gym, and grinding video games — currently scheming an AI that plays Slay the Spire. Summit tradition: one (1) celebratory BuzzBall at the top. 🍹⛰️
+Hiking the PNW, lifting at the gym, and grinding video games — currently scheming an AI that plays Slay the Spire.
 
 ---
 
